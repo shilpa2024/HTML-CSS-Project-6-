@@ -1,0 +1,90 @@
+*{
+    margin: 0;padding: 0px;
+    box-sizing: border-box;
+    /* max-width: 80vw; */
+    font-family: Verdana;
+}
+body{
+    background-color: rgb(239, 234, 234);
+    /* background-size:cover; */
+   
+
+}
+.header{
+    padding: 8vh;
+    margin-left: 15vw;
+}
+.logo img{
+    /* font-size: 10px; */
+    height: 50px;
+    width: 160px;
+}
+.list{
+    display: flex;
+    float: right;
+    gap: 40px;
+    margin-right: 15vw;
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+.Thebox{
+    border: 1px solid black;
+    margin: 60px 600px 0px 600px;
+    /* box-sizing:border-box; */
+    padding:50px 0px 0px 0px ;
+    border-radius: 5px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    background-color: rgb(240, 238, 238);
+}
+.Thebox h1{
+    text-align: center;
+    margin-top: -4vh;
+    font-weight: 600;
+    font-size:25px ;
+    /* padding: 10px; */
+}
+.N-E-M-list{
+    font-size: 18px;
+    text-align: center;
+    
+}
+.name input{
+    border-radius: 8px;
+    font-size: 13px;
+    
+}
+.name h5{
+    margin-right: 135px;
+}
+.email input{
+    border-radius: 8px;
+    font-size: 13px;
+    
+}
+.email h5{
+    margin-right: 135px;
+}
+.message input{
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 0px 0px 60px 0px;
+    
+}
+.message h5{
+    margin-right: 110px;
+}
+.btn button{
+    height: 35px;
+    width: 220px;
+    border-radius: 8px;
+    background-color: rgb(72, 207, 119);
+    /* margin-left: 60px; */
+    /* padding: 0px; */
+    margin: 0px 60px 10px 60px;
+    /* margin-top: -5vh; */
+}

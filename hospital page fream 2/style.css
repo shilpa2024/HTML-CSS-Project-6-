@@ -1,0 +1,116 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* font-weight: 600; */
+    max-width: 80vw;
+    background-color: #ddf5e9;
+    margin-left: 50px;
+}
+img{
+    height: 40px;
+    width: 120px;
+    margin: 40px;
+}
+.nav{
+    display: flex;
+    justify-content:end;
+    /* margin: 20px; */
+    /* gap: 0px; */
+    /* text-decoration: none; */
+    list-style: none;
+    margin-top: -10vh;
+}
+.nav a{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.heading{
+        display: flex;
+        justify-content: center;
+        padding: 30px 30px 30px 60px;
+        align-items: center;
+        margin-top: 30vh;
+        /* font-weight: 600; */
+
+        color: rgb(71, 192, 130);
+
+}
+/* .body-containt,
+.heading h2{
+        font-weight: 600;
+
+} */
+.body-containt ,
+.peragraph{
+    text-align: center;
+}
+.box1,
+.box2,
+.box3{
+    border: 1px solid rgb(244, 240, 240);
+    margin: 60px 25px 40px 40px;
+    padding: 10px 40px 25px 45px;
+    display: inline-block;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px 0.5px;
+    background-color: rgb(232, 246, 238);
+
+}
+
+.box1 h3{
+    /* padding: 5px 5px 5px 5px ; */
+    color: rgb(71, 192, 130);
+    margin-left: -1vw;
+    /* margin-top: .5vh; */
+    background-color: rgb(232, 246, 238);
+
+
+}
+
+.box2 h3{
+    /* padding: 5px 5px 5px 5px ; */
+    color: rgb(71, 192, 130);
+    margin-left: -1vw;
+    background-color: rgb(232, 246, 238);
+    /* margin-top: .5vh; */
+
+}
+.box3 h3{
+    /* padding: 5px 5px 5px 5px ; */
+    color: rgb(71, 192, 130);
+    margin-left: -1vw;
+    background-color: rgb(232, 246, 238);
+    /* margin-top: .5vh; */
+}
+.box1 p{
+    /* padding: 5px 5px 5px 5px ; */
+    /* color: rgb(71, 192, 130); */
+    margin-left: -3vw;
+    padding: 0px 20px 0px 45px; 
+    background-color: rgb(232, 246, 238);
+    
+    /* background-color: rgb(232, 241, 236); */
+
+}
+.box2 p{
+    /* padding: 5px 5px 5px 5px ; */
+    /* color: rgb(71, 192, 130); */
+    margin-left: -3vw;
+    padding: 0px 20px 0px 45px; 
+    background-color: rgb(232, 246, 238);
+
+}
+.box3 p{
+    /* padding: 5px 5px 5px 5px ; */
+    /* color: rgb(71, 192, 130); */
+    margin-left: -3vw;
+    padding: 0px 20px 0px 45px;   
+    background-color: rgb(232, 246, 238);
+
+}
